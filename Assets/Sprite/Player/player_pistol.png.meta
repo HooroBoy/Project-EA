@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 632be6649a25cb44e8ec367621edeaf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9072222076448574773
+    second: player_pistol_0
+  - first:
+      213: 8682395850669332903
+    second: player_pistol_1
+  - first:
+      213: -819639547171186483
+    second: player_pistol_2
+  - first:
+      213: -7632060750278746131
+    second: player_pistol_3
+  - first:
+      213: -4356337206578610752
+    second: player_pistol_4
+  - first:
+      213: 2776124401165987750
+    second: player_pistol_5
+  - first:
+      213: -256139467839175463
+    second: player_pistol_6
+  - first:
+      213: 5066660107889184534
+    second: player_pistol_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_pistol_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 149
+        width: 43
+        height: 25
+      alignment: 9
+      pivot: {x: 0.21697621, y: 0.47136474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc273d1961ef81280800000000000000
+      internalID: -9072222076448574773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 149
+        width: 43
+        height: 25
+      alignment: 9
+      pivot: {x: 0.22807507, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9987e56011e7870800000000000000
+      internalID: 8682395850669332903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 150
+        width: 44
+        height: 25
+      alignment: 9
+      pivot: {x: 0.21798497, y: 0.45227477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8dffaac2e00a4f0800000000000000
+      internalID: -819639547171186483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 86
+        width: 44
+        height: 25
+      alignment: 9
+      pivot: {x: 0.20713845, y: 0.42363954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def1f6b1f29751690800000000000000
+      internalID: -7632060750278746131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 85
+        width: 43
+        height: 25
+      alignment: 9
+      pivot: {x: 0.22252566, y: 0.44272918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd7018346e2b83c0800000000000000
+      internalID: -4356337206578610752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 85
+        width: 43
+        height: 25
+      alignment: 9
+      pivot: {x: 0.22807561, y: 0.41409424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afeacf2f66c68620800000000000000
+      internalID: 2776124401165987750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 41
+        height: 25
+      alignment: 9
+      pivot: {x: 0.20317031, y: 0.4140944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d40d76d282027cf0800000000000000
+      internalID: -256139467839175463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_pistol_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 21
+        width: 41
+        height: 25
+      alignment: 9
+      pivot: {x: 0.20332336, y: 0.43450257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f80681684605640800000000000000
+      internalID: 5066660107889184534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 70aff278e7036b143be7acbe008a5a3f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_pistol_0: -9072222076448574773
+      player_pistol_1: 8682395850669332903
+      player_pistol_2: -819639547171186483
+      player_pistol_3: -7632060750278746131
+      player_pistol_4: -4356337206578610752
+      player_pistol_5: 2776124401165987750
+      player_pistol_6: -256139467839175463
+      player_pistol_7: 5066660107889184534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

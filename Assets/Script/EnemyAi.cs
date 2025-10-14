@@ -149,7 +149,7 @@ public class EnemyAI : MonoBehaviour
 
         // The player is "audible" if they are within the hearing radius AND moving.
         // We check velocity.magnitude to see how fast the player is moving.
-        bool isPlayerMoving = playerRb.velocity.magnitude > 0.1f;
+        bool isPlayerMoving = playerRb.linearVelocity.magnitude > 0.1f;
 
         return distanceToPlayer <= hearingRadius && isPlayerMoving;
     }
