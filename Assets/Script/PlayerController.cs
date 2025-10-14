@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -48,6 +49,11 @@ public class PlayerController : MonoBehaviour
     private const string UPPER_BODY_SHOOT_TRIGGER = "Shoot"; // Trigger: To play a shooting animation
     // private const string UPPER_BODY_AIM_ANGLE_PARAM = "AimAngle"; // Optional: Float for complex aim blending
 
+    [Header("Rolling")]
+    private float RollSpeed = 12f;
+    private float RollDuration = 0.3f;
+    private bool isDashing = false;
+
     // --- Initialization ---
     void Awake() 
     {
@@ -67,15 +73,30 @@ public class PlayerController : MonoBehaviour
     // --- Called once per frame ---
     void Update()
     {
+        if (isDashing)
+        {
+            return;
+        } else
+        {
         HandleInput();
         RotateUpperBody();
         HandleShooting();
         UpdateAnimations(); // Call this to update animator parameters
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(Rolling());
+        }
+        }
+
     }
 
     // --- Called a fixed number of times per second (for physics) ---
     void FixedUpdate()
     {
+        if (isDashing)
+        {
+            return;
+        }
         MovePlayer();
         RotateLowerBody();
     }
@@ -177,6 +198,14 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Player has died!");
         // TODO: Implement death animation, reload scene, game over screen, etc.
-        Destroy(gameObject); 
+        Destroy(gameObject);
+    }
+    
+    IEnumerator Rolling()
+    {
+        isDashing = true;
+        rb.linearVelocity = new Vector2(movementInput.x * RollSpeed, movementInput.y * RollSpeed);
+        yield return new WaitForSeconds(RollDuration);
+        isDashing = false;
     }
 }
