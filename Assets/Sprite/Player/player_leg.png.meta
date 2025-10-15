@@ -1,37 +1,43 @@
 fileFormatVersion: 2
-guid: c0f18892043374e41a3a05e5371039dd
+guid: d699e022ac5895b4e80d3c820ad3ee01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8579328197797239423
-    second: player_leg_run_0
+      213: -1281692745387090105
+    second: player_leg_0
   - first:
-      213: 9091233489383601141
-    second: player_leg_run_1
+      213: 1179098491793622580
+    second: player_leg_1
   - first:
-      213: 2353244635047014144
-    second: player_leg_run_2
+      213: 4071429112785581282
+    second: player_leg_2
   - first:
-      213: 3496777650671285373
-    second: player_leg_run_3
+      213: -4465881938541344807
+    second: player_leg_3
   - first:
-      213: -8950832680402615030
-    second: player_leg_run_4
+      213: -1630101215808050988
+    second: player_leg_4
   - first:
-      213: -3779235540710968334
-    second: player_leg_run_5
+      213: 2308765998957331039
+    second: player_leg_5
   - first:
-      213: 6070806612706146003
-    second: player_leg_run_6
+      213: -328445038447200428
+    second: player_leg_6
   - first:
-      213: -398787274453860376
-    second: player_leg_run_7
+      213: -4604041819845568069
+    second: player_leg_7
   - first:
-      213: -3171631400211226956
-    second: player_leg_run_8
+      213: 3001580812211298887
+    second: player_leg_8
   - first:
-      213: 4571522256942862121
-    second: player_leg_run_9
+      213: 3507324662447555637
+    second: player_leg_9
+  - first:
+      213: 8394736738735725911
+    second: player_leg_10
+  - first:
+      213: -3687693865134183054
+    second: player_leg_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -153,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_leg_run_0
+      name: player_leg_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 98
-        width: 6
-        height: 8
+        x: 21
+        y: 23
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,64 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7a52396a85ef0770800000000000000
-      internalID: 8579328197797239423
+      spriteID: 74fd1002d33863ee0800000000000000
+      internalID: -1281692745387090105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_leg_run_1
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 97
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f338d0f0bc8a2e70800000000000000
-      internalID: 9091233489383601141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_leg_run_2
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 97
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00f229d078768a020800000000000000
-      internalID: 2353244635047014144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_leg_run_3
+      name: player_leg_1
       rect:
         serializedVersion: 2
         x: 82
-        y: 87
-        width: 6
-        height: 7
+        y: 23
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,86 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7479ce1fbc078030800000000000000
-      internalID: 3496777650671285373
+      spriteID: 436ce86c4dffc5010800000000000000
+      internalID: 1179098491793622580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_leg_run_4
+      name: player_leg_2
       rect:
         serializedVersion: 2
         x: 145
-        y: 87
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0505a8c91148c380800000000000000
-      internalID: -8950832680402615030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_leg_run_5
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 35
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f334698c457d8bc0800000000000000
-      internalID: -3779235540710968334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_leg_run_6
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 35
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d631722376df3450800000000000000
-      internalID: 6070806612706146003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_leg_run_7
-      rect:
-        serializedVersion: 2
-        x: 34
         y: 23
-        width: 6
-        height: 8
+        width: 27
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ef3b353619377af0800000000000000
-      internalID: -398787274453860376
+      spriteID: 2e4b4cbe43f908830800000000000000
+      internalID: 4071429112785581282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_leg_run_8
+      name: player_leg_3
       rect:
         serializedVersion: 2
-        x: 98
+        x: 209
         y: 23
-        width: 8
-        height: 9
+        width: 27
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4be5fe7ab0a1cf3d0800000000000000
-      internalID: -3171631400211226956
+      spriteID: 9d70964c9000602c0800000000000000
+      internalID: -4465881938541344807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_leg_run_9
+      name: player_leg_4
       rect:
         serializedVersion: 2
-        x: 162
+        x: 274
         y: 23
-        width: 10
-        height: 9
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,8 +262,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92f0fdf854f417f30800000000000000
-      internalID: 4571522256942862121
+      spriteID: 4d824d3b497b069e0800000000000000
+      internalID: -1630101215808050988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f520a5591726a0020800000000000000
+      internalID: 2308765998957331039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4577d1b4af0217bf0800000000000000
+      internalID: -328445038447200428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 23
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9df0dab582b10c0800000000000000
+      internalID: -4604041819845568069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 23
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742ab7c78d1c7a920800000000000000
+      internalID: 3001580812211298887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 23
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5344729a2358ca030800000000000000
+      internalID: 3507324662447555637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 23
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d934f2698108470800000000000000
+      internalID: 8394736738735725911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_11
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d2a48c7fda2dcc0800000000000000
+      internalID: -3687693865134183054
       vertices: []
       indices: 
       edges: []
@@ -386,16 +436,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_leg_run_0: 8579328197797239423
-      player_leg_run_1: 9091233489383601141
-      player_leg_run_2: 2353244635047014144
-      player_leg_run_3: 3496777650671285373
-      player_leg_run_4: -8950832680402615030
-      player_leg_run_5: -3779235540710968334
-      player_leg_run_6: 6070806612706146003
-      player_leg_run_7: -398787274453860376
-      player_leg_run_8: -3171631400211226956
-      player_leg_run_9: 4571522256942862121
+      player_leg_0: -1281692745387090105
+      player_leg_1: 1179098491793622580
+      player_leg_10: 8394736738735725911
+      player_leg_11: -3687693865134183054
+      player_leg_2: 4071429112785581282
+      player_leg_3: -4465881938541344807
+      player_leg_4: -1630101215808050988
+      player_leg_5: 2308765998957331039
+      player_leg_6: -328445038447200428
+      player_leg_7: -4604041819845568069
+      player_leg_8: 3001580812211298887
+      player_leg_9: 3507324662447555637
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

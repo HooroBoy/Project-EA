@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: 632be6649a25cb44e8ec367621edeaf9
+guid: 56d8788092d76a847be0b52ea9de4942
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9072222076448574773
-    second: player_pistol_0
+      213: -1281692745387090105
+    second: player_leg_0
   - first:
-      213: 8682395850669332903
-    second: player_pistol_1
+      213: 1179098491793622580
+    second: player_leg_1
   - first:
-      213: -819639547171186483
-    second: player_pistol_2
+      213: 4071429112785581282
+    second: player_leg_2
   - first:
-      213: -7632060750278746131
-    second: player_pistol_3
+      213: -4465881938541344807
+    second: player_leg_3
   - first:
-      213: -4356337206578610752
-    second: player_pistol_4
+      213: -1630101215808050988
+    second: player_leg_4
   - first:
-      213: 2776124401165987750
-    second: player_pistol_5
+      213: 2308765998957331039
+    second: player_leg_5
   - first:
-      213: -256139467839175463
-    second: player_pistol_6
+      213: -328445038447200428
+    second: player_leg_6
   - first:
-      213: 5066660107889184534
-    second: player_pistol_7
+      213: -4604041819845568069
+    second: player_leg_7
+  - first:
+      213: 3001580812211298887
+    second: player_leg_8
+  - first:
+      213: 3507324662447555637
+    second: player_leg_9
+  - first:
+      213: 8394736738735725911
+    second: player_leg_10
+  - first:
+      213: -3687693865134183054
+    second: player_leg_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_pistol_0
+      name: player_leg_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
+        x: 21
+        y: 23
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc273d1961ef81280800000000000000
-      internalID: -9072222076448574773
+      spriteID: 74fd1002d33863ee0800000000000000
+      internalID: -1281692745387090105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_1
+      name: player_leg_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 82
+        y: 23
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a9987e56011e7870800000000000000
-      internalID: 8682395850669332903
+      spriteID: 436ce86c4dffc5010800000000000000
+      internalID: 1179098491793622580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_2
+      name: player_leg_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
+        x: 145
+        y: 23
+        width: 27
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc8dffaac2e00a4f0800000000000000
-      internalID: -819639547171186483
+      spriteID: 2e4b4cbe43f908830800000000000000
+      internalID: 4071429112785581282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_3
+      name: player_leg_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 209
+        y: 23
+        width: 27
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: def1f6b1f29751690800000000000000
-      internalID: -7632060750278746131
+      spriteID: 9d70964c9000602c0800000000000000
+      internalID: -4465881938541344807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_4
+      name: player_leg_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 274
+        y: 23
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cd7018346e2b83c0800000000000000
-      internalID: -4356337206578610752
+      spriteID: 4d824d3b497b069e0800000000000000
+      internalID: -1630101215808050988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_5
+      name: player_leg_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 341
+        y: 23
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6afeacf2f66c68620800000000000000
-      internalID: 2776124401165987750
+      spriteID: f520a5591726a0020800000000000000
+      internalID: 2308765998957331039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_6
+      name: player_leg_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 405
+        y: 23
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d40d76d282027cf0800000000000000
-      internalID: -256139467839175463
+      spriteID: 4577d1b4af0217bf0800000000000000
+      internalID: -328445038447200428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pistol_7
+      name: player_leg_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 467
+        y: 23
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +328,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61f80681684605640800000000000000
-      internalID: 5066660107889184534
+      spriteID: bb9df0dab582b10c0800000000000000
+      internalID: -4604041819845568069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 23
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742ab7c78d1c7a920800000000000000
+      internalID: 3001580812211298887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 23
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5344729a2358ca030800000000000000
+      internalID: 3507324662447555637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 23
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d934f2698108470800000000000000
+      internalID: 8394736738735725911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_leg_11
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d2a48c7fda2dcc0800000000000000
+      internalID: -3687693865134183054
       vertices: []
       indices: 
       edges: []
@@ -326,7 +426,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 70aff278e7036b143be7acbe008a5a3f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -336,14 +436,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_pistol_0: -9072222076448574773
-      player_pistol_1: 8682395850669332903
-      player_pistol_2: -819639547171186483
-      player_pistol_3: -7632060750278746131
-      player_pistol_4: -4356337206578610752
-      player_pistol_5: 2776124401165987750
-      player_pistol_6: -256139467839175463
-      player_pistol_7: 5066660107889184534
+      player_leg_0: -1281692745387090105
+      player_leg_1: 1179098491793622580
+      player_leg_10: 8394736738735725911
+      player_leg_11: -3687693865134183054
+      player_leg_2: 4071429112785581282
+      player_leg_3: -4465881938541344807
+      player_leg_4: -1630101215808050988
+      player_leg_5: 2308765998957331039
+      player_leg_6: -328445038447200428
+      player_leg_7: -4604041819845568069
+      player_leg_8: 3001580812211298887
+      player_leg_9: 3507324662447555637
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
