@@ -12,6 +12,11 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        var healthController = collision.gameObject.GetComponent<HealthController>();
+        if (healthController != null)
+        {
+            healthController.TakeDamage(100); // Deal 10 damage on hit
+        }
         Destroy(gameObject);
     }
 }

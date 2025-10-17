@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106450836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 133650731}
   - component: {fileID: 133650732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UpperBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,6 +238,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1048866111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 108588009692028201, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.547
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387369269629014219, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e86b7258342bd0e4595ffdc6b9d8567a, type: 3}
 --- !u!1 &1295436335
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,7 +305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1295436336}
   - component: {fileID: 1295436337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LowerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -492,7 +549,7 @@ GameObject:
   - component: {fileID: 1631806211}
   - component: {fileID: 1631806214}
   - component: {fileID: 1631806215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -650,3 +707,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1316961650}
   - {fileID: 1631806213}
+  - {fileID: 1048866111}
