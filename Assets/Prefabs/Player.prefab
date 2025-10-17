@@ -237,8 +237,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8073972175775259856}
   - {fileID: 6189762046727997246}
@@ -288,10 +288,10 @@ MonoBehaviour:
   upperBodyTransform: {fileID: 8073972175775259856}
   lowerBodyRotationOffset: 0
   upperBodyRotationOffset: 0
-  projectilePrefab: {fileID: 5960012330170602006, guid: 41efc522555f5954e8d1ef42afaa52b7, type: 3}
+  projectilePrefab: {fileID: 7982309728284391604, guid: 078c421d8a0a09d4c86cb062b6d2993e, type: 3}
   firePoint: {fileID: 5420693370223216859}
   fireRate: 3
-  projectileSpeed: 100
+  projectileSpeed: 10
   maxHealth: 100
   lowerBodyAnimator: {fileID: 3269280807482406256}
   upperBodyAnimator: {fileID: 3269280807482406256}

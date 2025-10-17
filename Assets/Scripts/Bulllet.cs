@@ -15,12 +15,14 @@ public class Bullet : MonoBehaviour
     {
         if ((damagableLayers.value & (1 << collision.gameObject.layer)) == 0)
         {
+            Debug.Log("Bullet hit non-damagable layer");
             return;
         }
+        Debug.Log("Bullet hit " + collision.gameObject.name);
         var healthController = collision.gameObject.GetComponent<HealthController>();
         if (healthController != null)
         {
-            healthController.TakeDamage(100); // Deal 10 damage on hit
+            healthController.TakeDamage(100000); // Deal 10 damage on hit
         }
         Destroy(gameObject);
     }

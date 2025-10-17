@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4355240070560443042
+--- !u!1001 &1300523138706443946
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3445288519750419200, guid: 078c421d8a0a09d4c86cb062b6d2993e, type: 3}
       propertyPath: damagableLayers.m_Bits
-      value: 128
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7115268771278281343, guid: 078c421d8a0a09d4c86cb062b6d2993e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7982309728284391604, guid: 078c421d8a0a09d4c86cb062b6d2993e, type: 3}
       propertyPath: m_Name
-      value: PlayerBullet
+      value: EnemyBullet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
