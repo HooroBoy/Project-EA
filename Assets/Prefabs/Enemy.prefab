@@ -224,7 +224,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   _originPoint: {fileID: 387369269629014219}
-  _detectionRadius: 5
+  _detectionRadius: 7
 --- !u!114 &5096163084260831368
 MonoBehaviour:
   m_ObjectHideFlags: 0
